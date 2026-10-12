@@ -24,19 +24,17 @@ body {
 
 .banner {
   background-color: #202832; 
-  background-image: url('images/background.png'); 
+  background-image: url('images/fundofone.png'); 
   background-size: cover;
   background-position: center;
   padding: 70px 0;
 }
 
 .banner-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px; 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center;
+ max-width: 450px; 
+  width: 100%;       
+  height: auto;
+  display: block;
 }
 
 .banner-texto {
@@ -84,3 +82,4 @@ body {
   width: 100%;
   display: block;
 }
+
